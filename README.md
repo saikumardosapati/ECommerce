@@ -4,7 +4,7 @@
 This is a rest application that provides services to create or update an order or a batch of orders.
 
 To run the application, make sure you have docker installed on your machine.
-Navigate to the project folder and run "docker compose up" command.
+Navigate to the project folder and run "docker-compose up" command.
 This will create a database in a container and backend application in another container.
 You can verify the endpoints exposed by navigating to http://localhost:8080/swagger-ui.html#/
 which displays the endpoints and the services supported by the application.
